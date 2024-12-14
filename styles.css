@@ -20,7 +20,6 @@ body {
 	display: grid;
 		grid-template-columns: 2fr 1fr;
 		gap: 30px;
-	margin-inline: auto;
 }
 
 .wrapper-products-div {
@@ -160,6 +159,7 @@ body {
 	background-color: white;
 	padding: 25px;
 	border-radius: 10px;
+	max-height: auto;
 }
 
 .cart-div > h1 {
@@ -266,6 +266,7 @@ body {
 	max-height: 50px;
 	font-size: 0.8em;
 	border-radius: 5px;
+	padding-inline: 10px;
 }
 
 button {
