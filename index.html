@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+	<title>Product List</title>
+</head>
+<body>
+	<div class="overlay hidden"></div>
+	<div class="order-confirmation" id="order-confirmation">
+		<img src="icon-order-confirmed.svg">
+		<h1>Order Confirmed</h1>
+		<p>We hope you enjoy your food!</p>
+		<div class="products-purchased" id="products-purchased"></div>
+		<button id="new-order">Start New Order</button>
+	</div>
+	<div class="wrapper">
+		<div class="wrapper-products-div">
+			<h1>Desserts</h1>
+			<div class="product-div" id="products-div"></div>
+		</div>
+		<div class="cart-div" id="cart-div">
+			<h1>Your Cart (<span id="totalAmount">0</span>)</h1>
+			<img src="illustration-empty-cart.svg" id="cake-img" alt="Cake Image">
+			<p id="cart-msg">Your added items will appear here</p>
+		</div>
+	</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
